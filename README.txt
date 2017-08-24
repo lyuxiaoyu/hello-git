@@ -1,32 +1,32 @@
-Git»ù±¾³£ÓÃÃüÁîÈçÏÂ£º
-   mkdir£º         XX (´´½¨Ò»¸ö¿ÕÄ¿Â¼ XXÖ¸Ä¿Â¼Ãû)
-   pwd£º          ÏÔÊ¾µ±Ç°Ä¿Â¼µÄÂ·¾¶¡£
-   git init £º         °Ñµ±Ç°µÄÄ¿Â¼±ä³É¿ÉÒÔ¹ÜÀíµÄgit²Ö¿â£¬Éú³ÉÒş²Ø.gitÎÄ¼ş¡£
-   git add XX £º      °ÑxxÎÄ¼şÌí¼Óµ½Ôİ´æÇøÈ¥¡£
-   git commit -m ¡°XX¡± £º Ìá½»ÎÄ¼ş ¨Cm ºóÃæµÄÊÇ×¢ÊÍ¡£
-   git status£º        ²é¿´²Ö¿â×´Ì¬
-   git diff  XX £º     ²é¿´XXÎÄ¼şĞŞ¸ÄÁËÄÇĞ©ÄÚÈİ
-   git log £º         ²é¿´ÀúÊ·¼ÇÂ¼
-   git reset  --hard HEAD^ £º»òÕß git reset  --hard HEAD~ »ØÍËµ½ÉÏÒ»¸ö°æ±¾
-                        (Èç¹ûÏë»ØÍËµ½100¸ö°æ±¾£¬Ê¹ÓÃgit reset --hard HEAD~100 )
-   cat XX   £º      ²é¿´XXÎÄ¼şÄÚÈİ
-   git reflog  £º     ²é¿´ÀúÊ·¼ÇÂ¼µÄ°æ±¾ºÅid
-   git checkout -- XX £º °ÑXXÎÄ¼şÔÚ¹¤×÷ÇøµÄĞŞ¸ÄÈ«²¿³·Ïú¡£
-   git rm XX  £º        É¾³ıXXÎÄ¼ş
-   git remote add origin https://github.com/RTplay/testgit.git£º ¹ØÁªÒ»¸öÔ¶³Ì¿â
-   git push -u(µÚÒ»´ÎÒªÓÃ-u ÒÔºó²»ĞèÒª) origin master £º°Ñµ±Ç°master·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â
-   git clone https://github.com/RTplay/testgit.git £º ´ÓÔ¶³Ì¿âÖĞ¿ËÂ¡
-   git checkout -b dev £º ´´½¨dev·ÖÖ§ ²¢ÇĞ»»µ½dev·ÖÖ§ÉÏ
-   git branch  £º²é¿´µ±Ç°ËùÓĞµÄ·ÖÖ§
-   git checkout master £ºÇĞ»»»Ømaster·ÖÖ§
-   git merge dev    £ºÔÚµ±Ç°µÄ·ÖÖ§ÉÏºÏ²¢dev·ÖÖ§
-   git branch -d dev £ºÉ¾³ıdev·ÖÖ§
-   git branch name  £º´´½¨·ÖÖ§
-   git stash £º°Ñµ±Ç°µÄ¹¤×÷Òş²ØÆğÀ´ µÈÒÔºó»Ö¸´ÏÖ³¡ºó¼ÌĞø¹¤×÷
-   git stash list £º²é¿´ËùÓĞ±»Òş²ØµÄÎÄ¼şÁĞ±í
-   git stash apply £º»Ö¸´±»Òş²ØµÄÎÄ¼ş£¬µ«ÊÇÄÚÈİ²»É¾³ı
-   git stash drop£º É¾³ıÎÄ¼ş
-   git stash pop£º »Ö¸´ÎÄ¼şµÄÍ¬Ê± Ò²É¾³ıÎÄ¼ş
-   git remote£º ²é¿´Ô¶³Ì¿âµÄĞÅÏ¢
-   git remote -v £º²é¿´Ô¶³Ì¿âµÄÏêÏ¸ĞÅÏ¢
-   git push origin master  £ºGit»á°Ñmaster·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â¶ÔÓ¦µÄÔ¶³Ì·ÖÖ§ÉÏ
+ï»¿GitåŸºæœ¬å¸¸ç”¨å‘½ä»¤å¦‚ä¸‹ï¼š
+   mkdirï¼š         XX (åˆ›å»ºä¸€ä¸ªç©ºç›®å½• XXæŒ‡ç›®å½•å)
+   pwdï¼š          æ˜¾ç¤ºå½“å‰ç›®å½•çš„è·¯å¾„ã€‚
+   git init ï¼š         æŠŠå½“å‰çš„ç›®å½•å˜æˆå¯ä»¥ç®¡ç†çš„gitä»“åº“ï¼Œç”Ÿæˆéšè—.gitæ–‡ä»¶ã€‚
+   git add XX ï¼š      æŠŠxxæ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒºå»ã€‚
+   git commit -m â€œXXâ€ ï¼š æäº¤æ–‡ä»¶ â€“m åé¢çš„æ˜¯æ³¨é‡Šã€‚
+   git statusï¼š        æŸ¥çœ‹ä»“åº“çŠ¶æ€
+   git diff  XX ï¼š     æŸ¥çœ‹XXæ–‡ä»¶ä¿®æ”¹äº†é‚£äº›å†…å®¹
+   git log ï¼š         æŸ¥çœ‹å†å²è®°å½•
+   git reset  --hard HEAD^ ï¼šæˆ–è€… git reset  --hard HEAD~ å›é€€åˆ°ä¸Šä¸€ä¸ªç‰ˆæœ¬
+                        (å¦‚æœæƒ³å›é€€åˆ°100ä¸ªç‰ˆæœ¬ï¼Œä½¿ç”¨git reset --hard HEAD~100 )
+   cat XX   ï¼š      æŸ¥çœ‹XXæ–‡ä»¶å†…å®¹
+   git reflog  ï¼š     æŸ¥çœ‹å†å²è®°å½•çš„ç‰ˆæœ¬å·id
+   git checkout -- XX ï¼š æŠŠXXæ–‡ä»¶åœ¨å·¥ä½œåŒºçš„ä¿®æ”¹å…¨éƒ¨æ’¤é”€ã€‚
+   git rm XX  ï¼š        åˆ é™¤XXæ–‡ä»¶
+   git remote add origin https://github.com/RTplay/testgit.gitï¼š å…³è”ä¸€ä¸ªè¿œç¨‹åº“
+   git push -u(ç¬¬ä¸€æ¬¡è¦ç”¨-u ä»¥åä¸éœ€è¦) origin master ï¼šæŠŠå½“å‰masteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“
+   git clone https://github.com/RTplay/testgit.git ï¼š ä»è¿œç¨‹åº“ä¸­å…‹éš†
+   git checkout -b dev ï¼š åˆ›å»ºdevåˆ†æ”¯ å¹¶åˆ‡æ¢åˆ°devåˆ†æ”¯ä¸Š
+   git branch  ï¼šæŸ¥çœ‹å½“å‰æ‰€æœ‰çš„åˆ†æ”¯
+   git checkout master ï¼šåˆ‡æ¢å›masteråˆ†æ”¯
+   git merge dev    ï¼šåœ¨å½“å‰çš„åˆ†æ”¯ä¸Šåˆå¹¶devåˆ†æ”¯
+   git branch -d dev ï¼šåˆ é™¤devåˆ†æ”¯
+   git branch name  ï¼šåˆ›å»ºåˆ†æ”¯
+   git stash ï¼šæŠŠå½“å‰çš„å·¥ä½œéšè—èµ·æ¥ ç­‰ä»¥åæ¢å¤ç°åœºåç»§ç»­å·¥ä½œ
+   git stash list ï¼šæŸ¥çœ‹æ‰€æœ‰è¢«éšè—çš„æ–‡ä»¶åˆ—è¡¨
+   git stash apply ï¼šæ¢å¤è¢«éšè—çš„æ–‡ä»¶ï¼Œä½†æ˜¯å†…å®¹ä¸åˆ é™¤
+   git stash dropï¼š åˆ é™¤æ–‡ä»¶
+   git stash popï¼š æ¢å¤æ–‡ä»¶çš„åŒæ—¶ ä¹Ÿåˆ é™¤æ–‡ä»¶
+   git remoteï¼š æŸ¥çœ‹è¿œç¨‹åº“çš„ä¿¡æ¯
+   git remote -v ï¼šæŸ¥çœ‹è¿œç¨‹åº“çš„è¯¦ç»†ä¿¡æ¯
+   git push origin master  ï¼šGitä¼šæŠŠmasteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“å¯¹åº”çš„è¿œç¨‹åˆ†æ”¯ä¸Š
