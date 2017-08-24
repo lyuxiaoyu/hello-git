@@ -13,7 +13,7 @@
    git reflog  ：     查看历史记录的版本号id
    git checkout -- XX ： 把XX文件在工作区的修改全部撤销。
    git rm XX  ：        删除XX文件
-   git remote add origin https://github.com/RTplay/testgit.git： 关联一个远程库
+   git remote add origin https://github.com/RTplay/testgit.git： 关联一个远程库,需先在github上建立对应的库
    git push -u(第一次要用-u 以后不需要) origin master ：把当前master分支推送到远程库
    git clone https://github.com/RTplay/testgit.git ： 从远程库中克隆
    git checkout -b dev ： 创建dev分支 并切换到dev分支上
@@ -30,3 +30,5 @@
    git remote： 查看远程库的信息
    git remote -v ：查看远程库的详细信息
    git push origin master  ：Git会把master分支推送到远程库对应的远程分支上
+   git tag v1.0	：默认给head打标签，后可跟commit id指定
+   git tag -a v1.0 -m "version 1.0 released" ：注释标签 
