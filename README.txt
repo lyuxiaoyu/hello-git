@@ -32,3 +32,6 @@
    git push origin master  ：Git会把master分支推送到远程库对应的远程分支上
    git tag v1.0	：默认给head打标签，后可跟commit id指定
    git tag -a v1.0 -m "version 1.0 released" ：注释标签 
+   git tag -d v1.0 ：删除标签
+   git push origin --tags ：推送标签
+   git show v1.0 ：查看版本详细信息
